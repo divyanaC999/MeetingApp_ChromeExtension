@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meeting Reminder and World Clock</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>World Clocks</h1>
+    <div class="clocks">
+      <div id="us-time" class="clock"></div>
+      <div id="india-time" class="clock"></div>
+      <div id="dubai-time" class="clock"></div>
+      <div id="uk-time" class="clock"></div>
+    </div>
+
+    <h2>Meeting Scheduler</h2>
+    <form id="meeting-form">
+      <input type="text" id="meeting-id" placeholder="Meeting ID" required>
+      <input type="text" id="meeting-password" placeholder="Password">
+      <input type="datetime-local" id="meeting-time" required>
+      <button type="submit">Add Meeting</button>
+    </form>
+
+    <h3>Upcoming Meetings</h3>
+    <ul id="meeting-list"></ul>
+
+    <footer>
+      Made by Divya Chourasiya
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

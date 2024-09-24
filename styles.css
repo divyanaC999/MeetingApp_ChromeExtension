@@ -1,0 +1,54 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+}
+
+.clock {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input, button {
+  margin: 5px;
+  padding: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#meeting-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#meeting-list li {
+  padding: 10px;
+  background-color: white;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+}
